@@ -11,6 +11,8 @@ To obtain the data sets needed for running the model, follow these steps:
 
 The datasets used to develop this model were also sourced from this platform.
 
+![Data Acquisition](ss/mast-filters.png)
+
 # Model Performance
 The model's performance varies depending on the data type used. Below are the results obtained on a dataset with 5,000 entries for each data type.
 
