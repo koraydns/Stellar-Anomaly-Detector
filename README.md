@@ -42,7 +42,7 @@ This script allows you to detect anomalies in JWST data using the pre-trained mo
 * Download the sample data file MAST_allmix_100_with_anomaly_JWST.csv from this repository, or use your own JWST dataset. The dataset should contain the following columns: s_ra, s_dec, t_min, t_max, t_exptime, em_min, em_max.
   
 **2.	Prepare Your Environment:**
-* Ensure you have Python installed on your system. You will need Python 3.7 or later. The project was developed in Python 3.11 environment.
+* Ensure you have Python installed on your system. You will need Python 3.7 or later. The project was developed in **Python 3.11 environment**.
 * Install the necessary Python libraries by running:
 
 ```bash
