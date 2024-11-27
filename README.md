@@ -31,3 +31,33 @@ The model's performance varies depending on the data type used. Below are the re
 # AI Model Output
 {'Total Anomalies Added': 999, 'Correctly Detected Anomalies': 923, 'False Positives': 303, 'Accuracy': 0.923923923923924, 'False Positive Rate': 0.07743419371326347, 'Best Params IF': {'contamination': 0.24958833021525914, 'max_features': 0.7, 'max_samples': 0.6, 'n_estimators': 500}}
 ```
+# How to Use the Anomaly Detection Script
+
+This script allows you to detect anomalies in JWST data using the pre-trained model provided in this repository. Follow the steps below to use the script effectively:
+
+**1.	Download the Necessary Files:**
+* Ensure you have the SAD.pkl file in your working directory. This file contains the pre-trained anomaly detection model.
+* Download the sample data file MAST_allmix_100_with_anomaly_JWST.csv from this repository, or use your own JWST dataset. The dataset should contain the following columns: s_ra, s_dec, t_min, t_max, t_exptime, em_min, em_max.
+  
+**2.	Prepare Your Environment:**
+* Ensure you have Python installed on your system. You will need Python 3.7 or later.
+* Install the necessary Python libraries by running:
+
+```bash
+pip install pandas scikit-learn numpy
+```
+
+Run the script using the following command:
+
+```bash
+python sad.py
+```
+
+**3. Understanding the Output**
+* The script will print the rows in your dataset identified as anomalies based on the model.
+* Use this feedback to analyze unusual data points that could indicate significant deviations in your dataset.
+
+**Note:** The sample dataset MAST_allmix_100_with_anomaly_JWST.csv is designed to help you test the model. It contains injected anomalies to simulate realistic detection scenarios.
+
+Feel free to adjust the script according to your needs, such as changing the dataset path or modifying the feature engineering steps based on your specific data characteristics.
+
