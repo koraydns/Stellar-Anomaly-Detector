@@ -1,3 +1,7 @@
+# sad.py
+# Anomaly Detection in James Webb Space Telescope (JWST) Data using Machine Learning
+# GitHub: https://github.com/koraydns/Stellar-Anomaly-Detector
+
 import pickle
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
