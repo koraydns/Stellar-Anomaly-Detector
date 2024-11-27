@@ -38,7 +38,7 @@ The model's performance varies depending on the data type used. Below are the re
 This script allows you to detect anomalies in JWST data using the pre-trained model provided in this repository. Follow the steps below to use the script effectively:
 
 **1.	Download the Necessary Files:**
-* Ensure you have the SAD.pkl file in your working directory. This file contains the pre-trained anomaly detection model.
+* Ensure you have the sad_model.pkl file in your working directory. This file contains the pre-trained anomaly detection model.
 * Download the sample data file MAST_allmix_100_with_anomaly_JWST.csv from this repository, or use your own JWST dataset. The dataset should contain the following columns: s_ra, s_dec, t_min, t_max, t_exptime, em_min, em_max.
   
 **2.	Prepare Your Environment:**
