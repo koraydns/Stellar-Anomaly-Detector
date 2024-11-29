@@ -1,6 +1,8 @@
 # Stellar Anomaly Detector
 This repository provides an anomaly detection model trained on data from the James Webb Space Telescope (JWST). The model uses an Isolation Forest algorithm to identify anomalies in various JWST data types, including timeseries, images, spectra, catalogs, cubes, and measurements. Key parameters were finely tuned using a Randomized Search for Hyperparameter Optimization, and the model incorporates advanced Feature Engineering, Data Normalization, and detailed Performance Metrics to ensure high accuracy and reliability.
 
+This approach specifically focuses on detecting anomalies introduced by malicious actors, such as falsified or manipulated data that may have been injected or altered intentionally. It aims to identify and mitigate the negative impact of such malicious data before proceeding with further analysis or workflows.
+
 # Data Acquisition
 To obtain the data sets needed for running the model, follow these steps:
 1.	Visit the [MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html).
