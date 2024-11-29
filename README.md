@@ -55,11 +55,11 @@ Run the script using the following command:
 python sad.py
 ```
 
-**3. Understanding the Output**
+# Understanding the Output
 * The script will print the rows in your dataset identified as anomalies based on the model.
 * Use this feedback to analyze unusual data points that could indicate significant deviations in your dataset.
 
-**Note:** The sample dataset MAST_allmix_100_with_anomaly_JWST.csv is designed to help you test the model. It contains injected anomalies to simulate realistic detection scenarios. The data from the **100th** record onward consists of entries with anomalies.
+**Note:** The sample dataset MAST_allmix_100_with_anomaly_JWST.csv is designed to help you test the model. It contains injected anomalies to simulate realistic detection scenarios. **The data from the 100th record onward consists of entries with anomalies.**
 
 Feel free to adjust the script according to your needs, such as changing the dataset path or modifying the feature engineering steps based on your specific data characteristics.
 
