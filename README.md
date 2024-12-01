@@ -65,3 +65,10 @@ python sad.py
 
 Feel free to adjust the script according to your needs, such as changing the dataset path or modifying the feature engineering steps based on your specific data characteristics.
 
+## Further Reading
+
+To learn more about the significance of this project and its use in anomaly detection, you can refer to the following article:
+
+[Detecting Anomalies in James Webb Space Telescope Data: Why It Is Important for Science and Security](https://penetratechacademy.com/detecting-anomalies-in-james-webb-space-telescope-data-why-it-is-important-for-science-and-security/)
+
+
