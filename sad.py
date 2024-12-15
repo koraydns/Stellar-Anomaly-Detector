@@ -1,6 +1,18 @@
-# sad.py
-# Anomaly Detection in James Webb Space Telescope (JWST) Data using Machine Learning
-# GitHub: https://github.com/koraydns/Stellar-Anomaly-Detector
+"""
+Stellar Anomaly Detector
+------------------------
+Anomaly Detection in James Webb Space Telescope (JWST) Data using Machine Learning
+
+Original Repository: https://github.com/koraydns/Stellar-Anomaly-Detector
+Author: Koray Danisma
+
+License: Apache 2.0
+This project is licensed under the Apache License 2.0.
+For full license details, see the LICENSE file in the repository.
+
+Note:
+If you modify this file, you must indicate that changes have been made.
+"""
 
 import pickle
 import pandas as pd
