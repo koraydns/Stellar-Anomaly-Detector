@@ -69,7 +69,7 @@ Feel free to adjust the script according to your needs, such as changing the dat
 
 To learn more about the significance of this project and its use in anomaly detection, you can refer to the following article:
 
-[Detecting Anomalies in James Webb Space Telescope Data: Why It Is Important for Science and Security](https://penetratechacademy.com/detecting-anomalies-in-james-webb-space-telescope-data-why-it-is-important-for-science-and-security/)
+[Detecting Anomalies in James Webb Space Telescope (JWST) Data Using Machine Learning: A Study on Data Integrity for Science and Security](https://zenodo.org/records/17450635)
 
 ## License
 
